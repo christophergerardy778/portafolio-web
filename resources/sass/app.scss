@@ -1,3 +1,9 @@
+@import '~vuetify/dist/vuetify.min.css';
+
+$primary-color: #FF4672;
+$text-color-black: #424242;
+$text-color-secondary: #7B7B7B;
+
 @font-face {
     font-family: 'Nexa';
     font-weight: 300;
@@ -26,4 +32,40 @@
     margin: 0;
     padding: 0;
     font-family: Nexa, serif;
+}
+
+.text-transformation-none {
+  text-transform: none;
+}
+
+.menu-links {
+  font-weight: lighter;
+  color: $text-color-black;
+  text-transform: none;
+}
+
+.app-title-head {
+  font-size: 48px;
+  line-height: normal;
+}
+
+.app-full-height-page {
+  min-height: 100vh;
+}
+
+.app-letter-space {
+  letter-spacing: 0.5em;
+}
+
+.app-sub-title {
+  font-size: 36px;
+}
+
+.app-sub-title-2 {
+  font-size: 24px;
+}
+
+.app-description {
+  font-size: 14px;
+  color: $text-color-secondary;
 }
