@@ -1,0 +1,9 @@
++ vue@2.6.14
++ vue-server-renderer@2.6.14
+added 9 packages from 46 contributors, updated 1 package and audited 1129 packages in 8.282s
+
+57 packages are looking for funding
+  run `npm fund` for details
+
+found 5 vulnerabilities (4 moderate, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details

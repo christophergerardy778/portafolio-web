@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Nexa';
+    font-weight: 300;
+    src: url("../fonts/NexaLight.otf");
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-weight: 400;
+    src: url("../fonts/NexaRegular.otf");
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-weight: 800;
+    src: url("../fonts/NexaBold.otf");
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-weight: 900;
+    src: url("../fonts/NexaBlack.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nexa, serif;
+}

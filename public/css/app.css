@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Nexa";
+  font-weight: 300;
+  src: url(/fonts/NexaLight.otf?e9f355b50d88d821f36342ea41bf94a2);
+}
+
+@font-face {
+  font-family: "Nexa";
+  font-weight: 400;
+  src: url(/fonts/NexaRegular.otf?43af9a823810d7aea830a8db17ca902d);
+}
+
+@font-face {
+  font-family: "Nexa";
+  font-weight: 800;
+  src: url(/fonts/NexaBold.otf?35418d8f6d04761a1df8a9e44e516bc6);
+}
+
+@font-face {
+  font-family: "Nexa";
+  font-weight: 900;
+  src: url(/fonts/NexaBlack.otf?9e6108697583d1f9be8bc4040d6195bf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Nexa, serif;
+}
+
