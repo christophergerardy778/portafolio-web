@@ -1,4 +1,5 @@
 @import '~vuetify/dist/vuetify.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
 
 $primary-color: #FF4672;
 $text-color-black: #424242;
@@ -89,6 +90,13 @@ $text-color-secondary: #7B7B7B;
 .app-description {
   font-size: 14px;
   color: $text-color-secondary;
+}
+
+.app-icon-social {
+  display: flex;
+  gap: 18px;
+  font-size: 24px;
+  color: $primary-color;
 }
 
 .app-sub-title-section {

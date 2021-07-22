@@ -27,7 +27,7 @@
       </v-col>
 
       <v-col class="col-md-6 d-flex justify-center justify-md-end align-center app-image-center">
-        <v-avatar color="primary" width="200px" height="200px" class="app-image-me">
+        <v-avatar width="200px" height="200px" class="app-image-me">
           <v-img
             src="https://media-exp1.licdn.com/dms/image/C4E03AQFKNou5AErvKA/profile-displayphoto-shrink_200_200/0/1616812083033?e=1631750400&v=beta&t=daRxzZbO05nvbLyZAX2X9O4lTCov7W23eSmXViLkAJw"
           ></v-img>
@@ -91,6 +91,7 @@
           class="rounded"
           src="https://pbs.twimg.com/media/E6sa_aiWQAI_FvX?format=jpg&name=medium"
           style="max-width: 100%"
+          alt="proyect_image"
         >
       </v-col>
 
@@ -99,6 +100,7 @@
           class="rounded"
           src="https://pbs.twimg.com/media/E6sbEGaXIAAgHT_?format=jpg&name=medium"
           style="max-width: 100%"
+          alt="proyect_image"
         >
       </v-col>
 
@@ -107,6 +109,7 @@
           class="rounded"
           src="https://pbs.twimg.com/media/E6SKl5pXEAkwSbb?format=jpg&name=4096x4096"
           style="max-width: 100%"
+          alt="proyect_image"
         >
       </v-col>
 
@@ -114,6 +117,51 @@
         <v-btn outlined color="primary" class="text-transformation-none" large>
           Ver mas
         </v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
+
+  <v-container class="app-full-height-page d-flex align-center justify-center">
+    <v-row>
+      <v-col class="col-12 col-md-6 d-flex justify-center flex-column">
+        <h2 class="app-sub-title-section font-weight-black">
+          Contactame 👋
+        </h2>
+
+        <p class="app-text-secondary">
+          Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Accusamus at autem consequatur cumque,
+          dolor doloribus eos error et
+        </p>
+
+        <div class="app-icon-social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-git-alt"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </v-col>
+
+      <v-col class="col-md-6">
+        <v-form>
+          <v-text-field
+            outlined
+            label="Nombre"
+          ></v-text-field>
+
+          <v-text-field
+            outlined
+            label="Email"
+          ></v-text-field>
+
+          <v-textarea outlined label="Mensaje">
+          </v-textarea>
+
+          <v-btn large depressed block color="primary" class="text-transformation-none">
+            Enviar
+          </v-btn>
+        </v-form>
       </v-col>
     </v-row>
   </v-container>

@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="mt-10">
     <div class="app-bg-primary py-4">
       <v-container>
         <v-row>
