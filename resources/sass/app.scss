@@ -5,37 +5,58 @@ $text-color-black: #424242;
 $text-color-secondary: #7B7B7B;
 
 @font-face {
-    font-family: 'Nexa';
-    font-weight: 300;
-    src: url("../fonts/NexaLight.otf");
+  font-family: 'Nexa';
+  font-weight: 300;
+  src: url("../fonts/NexaLight.otf");
 }
 
 @font-face {
-    font-family: 'Nexa';
-    font-weight: 400;
-    src: url("../fonts/NexaRegular.otf");
+  font-family: 'Nexa';
+  font-weight: 400;
+  src: url("../fonts/NexaRegular.otf");
 }
 
 @font-face {
-    font-family: 'Nexa';
-    font-weight: 800;
-    src: url("../fonts/NexaBold.otf");
+  font-family: 'Nexa';
+  font-weight: 800;
+  src: url("../fonts/NexaBold.otf");
 }
 
 @font-face {
-    font-family: 'Nexa';
-    font-weight: 900;
-    src: url("../fonts/NexaBlack.otf");
+  font-family: 'Nexa';
+  font-weight: 900;
+  src: url("../fonts/NexaBlack.otf");
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Nexa, serif;
+  margin: 0;
+  padding: 0;
+  font-family: Nexa, serif;
 }
 
 .text-transformation-none {
   text-transform: none;
+}
+
+.app-bg-secondary {
+  background-color: $text-color-black;
+}
+
+.app-bg-primary {
+  background-color: $primary-color;
+}
+
+.text-black {
+  color: $text-color-black;
+}
+
+.app-text-secondary {
+  color: $text-color-secondary;
+  font-size: 14px;
+}
+
+.app-background {
+  background-color: #EDF1FF;
 }
 
 .menu-links {
@@ -72,4 +93,33 @@ $text-color-secondary: #7B7B7B;
 
 .app-sub-title-section {
   font-size: 48px;
+  color: $text-color-black;
+}
+
+@media screen and (max-width: 425px) {
+  .app-sub-title {
+    font-size: 18px;
+  }
+
+  .app-title-head {
+    font-size: 24px;
+  }
+
+  .app-sub-title-2 {
+    font-size: 16px;
+  }
+
+  .app-image-me {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .app-header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .app-sub-title-section {
+    font-size: 36px;
+  }
 }

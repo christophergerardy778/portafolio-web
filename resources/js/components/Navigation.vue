@@ -62,37 +62,37 @@
 </template>
 
 <script>
-export default {
-  name: "Navigation",
+  export default {
+    name: "Navigation",
 
-  data: () => ({
-    isActive: null,
-    menuLinks: [
-      {
-        title: 'Inicio',
-        route: '',
-      },
-      {
-        title: 'Contacto',
-        route: '',
-      },
-      {
-        title: 'Portafolio',
-        route: '',
-      },
-      {
-        title: 'Sobre mi',
-        route: '',
-      },
-    ]
-  }),
+    data: () => ({
+      isActive: null,
+      menuLinks: [
+        {
+          title: 'Inicio',
+          route: '',
+        },
+        {
+          title: 'Contacto',
+          route: '',
+        },
+        {
+          title: 'Portafolio',
+          route: '',
+        },
+        {
+          title: 'Sobre mi',
+          route: '',
+        },
+      ]
+    }),
 
-  methods: {
-    openDrawer() {
-      this.isActive = true;
+    methods: {
+      openDrawer() {
+        this.isActive = true;
+      }
     }
   }
-}
 </script>
 
 <style scoped>

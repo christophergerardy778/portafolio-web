@@ -14,13 +14,13 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
   <link rel="stylesheet" href="{{ asset('/css/app.css') }}" />
-
 </head>
 <body>
   <div id="app">
     <v-app>
       <navigation></navigation>
       <v-main>@yield('content')</v-main>
+      <footer-component></footer-component>
     </v-app>
   </div>
 <script src="{{ asset('js/app.js') }}"></script>

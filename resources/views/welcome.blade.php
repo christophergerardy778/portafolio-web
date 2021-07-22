@@ -2,8 +2,8 @@
 
 @section('content')
   <v-container class="app-full-height-page d-flex align-center">
-    <v-row>
-      <v-col class="col-md-6 col-sm-12">
+    <v-row class="app-header">
+      <v-col class="col-md-6 col-sm-12 text-center text-md-left">
         <h2 class="app-sub-title font-weight-thin mb-2">
           ¡Hola! Soy
         </h2>
@@ -26,10 +26,10 @@
         </v-btn>
       </v-col>
 
-      <v-col class="col-md-6 d-none d-md-flex justify-end align-center">
-        <v-avatar width="200px" height="200px">
+      <v-col class="col-md-6 d-flex justify-center justify-md-end align-center app-image-center">
+        <v-avatar color="primary" width="200px" height="200px" class="app-image-me">
           <v-img
-            src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQFKNou5AErvKA/profile-displayphoto-shrink_200_200/0/1616812083033?e=1631750400&v=beta&t=daRxzZbO05nvbLyZAX2X9O4lTCov7W23eSmXViLkAJw"
           ></v-img>
         </v-avatar>
       </v-col>
@@ -37,13 +37,13 @@
     </v-row>
   </v-container>
 
-  <div class="mt-4 app-full-height-page d-flex align-center" style="background-color: #edf1ff;">
+  <div class="mt-4 app-full-height-page d-flex align-center app-background">
     <v-container>
       <v-row>
-        <v-col class="col-md-6" style="font-size: 14px; color: #7B7B7B;">
-          <h1 class="app-sub-title-section font-weight-black" style="color: #424242">
-            Sobre mi
-          </h1>
+        <v-col class="col-md-6 app-text-secondary">
+          <h2 class="app-sub-title-section font-weight-black text-black">
+            Sobre mi 🤔
+          </h2>
 
           <p>
             ¡Hola! mi nombre es  Christopher Gerardy Andrade Lazcano
@@ -72,12 +72,58 @@
     </v-container>
   </div>
 
-  <v-container class="mt-8">
+  <v-container class="app-full-height-page mt-6 d-flex align-center">
     <v-row>
-      <v-col class="col-md-12" style="font-size: 14px; color: #7B7B7B;">
-        <h1 class="app-sub-title-section font-weight-black" style="color: #424242">
-          Sobre mi
-        </h1>
+      <v-col class="col-md-12">
+        <h2 class="app-sub-title-section font-weight-black">
+          Portafolio 💼
+        </h2>
+
+        <p class="app-text-secondary mt-2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+          dignissimos distinctio eligendi error illum in laboriosam minima nihil
+          perspiciatis possimus qui quisquam, sed sequi sit sunt velit voluptates. Aspernatur, temporibus?
+        </p>
+      </v-col>
+
+      <v-col class="col-12 col-md-4">
+        <img
+          class="rounded"
+          src="https://pbs.twimg.com/media/E6sa_aiWQAI_FvX?format=jpg&name=medium"
+          style="max-width: 100%"
+        >
+      </v-col>
+
+      <v-col class="col-12 col-md-4">
+        <img
+          class="rounded"
+          src="https://pbs.twimg.com/media/E6sbEGaXIAAgHT_?format=jpg&name=medium"
+          style="max-width: 100%"
+        >
+      </v-col>
+
+      <v-col class="col-12 col-md-4">
+        <img
+          class="rounded"
+          src="https://pbs.twimg.com/media/E6SKl5pXEAkwSbb?format=jpg&name=4096x4096"
+          style="max-width: 100%"
+        >
+      </v-col>
+
+      <v-col class="col-md-12 d-flex align-center justify-center">
+        <v-btn outlined color="primary" class="text-transformation-none" large>
+          Ver mas
+        </v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
+
+<!--  <v-container class="app-full-height-page d-flex align-center justify-center mt-8">
+    <v-row>
+      <v-col class="col-md-12 app-text-secondary">
+        <h2 class="app-sub-title-section font-weight-black text-black">
+          Habilidades tecnicas
+        </h2>
 
         <p>
           Tengo conocimientos de programación web con Angular, Vue, servidores con Node js,
@@ -85,7 +131,7 @@
           usuario con ayuda del diseño de interfaces con otras herramientas como Figma
         </p>
 
-        <v-chip-group>
+        <v-chip-group column>
           <v-chip color="primary">
             Angular
           </v-chip>
@@ -97,8 +143,56 @@
           <v-chip color="primary">
             Laravel
           </v-chip>
+
+          <v-chip color="primary">
+            Angular
+          </v-chip>
+
+          <v-chip color="primary">
+            Vue js
+          </v-chip>
+
+          <v-chip color="primary">
+            Laravel
+          </v-chip>
+
+          <v-chip color="primary">
+            Angular
+          </v-chip>
+
+          <v-chip color="primary">
+            Vue js
+          </v-chip>
+
+          <v-chip color="primary">
+            Laravel
+          </v-chip>
+
+          <v-chip color="primary">
+            Angular
+          </v-chip>
+
+          <v-chip color="primary">
+            Vue js
+          </v-chip>
+
+          <v-chip color="primary">
+            Laravel
+          </v-chip>
+          <v-chip color="primary">
+            Angular
+          </v-chip>
+
+          <v-chip color="primary">
+            Vue js
+          </v-chip>
+
+          <v-chip color="primary">
+            Laravel
+          </v-chip>
+
         </v-chip-group>
       </v-col>
     </v-row>
-  </v-container>
+  </v-container>-->
 @stop

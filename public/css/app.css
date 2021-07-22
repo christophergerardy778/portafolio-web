@@ -40,6 +40,27 @@
   text-transform: none;
 }
 
+.app-bg-secondary {
+  background-color: #424242;
+}
+
+.app-bg-primary {
+  background-color: #FF4672;
+}
+
+.text-black {
+  color: #424242;
+}
+
+.app-text-secondary {
+  color: #7B7B7B;
+  font-size: 14px;
+}
+
+.app-background {
+  background-color: #EDF1FF;
+}
+
 .menu-links {
   font-weight: lighter;
   color: #424242;
@@ -74,5 +95,34 @@
 
 .app-sub-title-section {
   font-size: 48px;
+  color: #424242;
+}
+
+@media screen and (max-width: 425px) {
+  .app-sub-title {
+    font-size: 18px;
+  }
+
+  .app-title-head {
+    font-size: 24px;
+  }
+
+  .app-sub-title-2 {
+    font-size: 16px;
+  }
+
+  .app-image-me {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .app-header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .app-sub-title-section {
+    font-size: 36px;
+  }
 }
 
