@@ -15,7 +15,7 @@
       <v-list>
         <v-divider />
 
-        <v-list-item v-for="(item, i) of menuLinks" :key="i" link>
+        <v-list-item v-for="(item, i) of menuLinks" :key="i" link @click="scrollToSection(item.route)">
           <v-list-item-content>
             <v-list-item-title class="app-font-size">
               {{ item.title }}
@@ -43,7 +43,7 @@
             depressed class="menu-links"
             plain
             :ripple="false"
-            :to="item.route"
+            @click="scrollToSection(item.route)"
           >
             {{ item.title }}
           </v-btn>
@@ -70,26 +70,35 @@
       menuLinks: [
         {
           title: 'Inicio',
-          route: '',
-        },
-        {
-          title: 'Contacto',
-          route: '',
-        },
-        {
-          title: 'Portafolio',
-          route: '',
+          route: 'inicio',
         },
         {
           title: 'Sobre mi',
-          route: '',
+          route: 'sobre_mi',
         },
+        {
+          title: 'Portafolio',
+          route: 'portafolio',
+        },
+        {
+          title: 'Contacto',
+          route: 'contacto',
+        }
       ]
     }),
 
     methods: {
       openDrawer() {
         this.isActive = true;
+      },
+
+      scrollToSection(elementName) {
+        window.scrollTo({
+          top: document.getElementById(elementName).offsetTop,
+          behavior: 'smooth'
+        });
+
+        this.isActive = false;
       }
     }
   }

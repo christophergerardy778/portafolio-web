@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <v-container class="app-full-height-page d-flex align-center">
+  <v-container class="app-full-height-page d-flex align-center" id="inicio">
     <v-row class="app-header">
       <v-col class="col-md-6 col-sm-12 text-center text-md-left">
         <h2 class="app-sub-title font-weight-thin mb-2">
@@ -37,7 +37,7 @@
     </v-row>
   </v-container>
 
-  <div class="mt-4 app-full-height-page d-flex align-center app-background">
+  <div class="app-full-height-page d-flex align-center app-background" id="sobre_mi">
     <v-container>
       <v-row>
         <v-col class="col-md-6 app-text-secondary">
@@ -72,56 +72,58 @@
     </v-container>
   </div>
 
-  <v-container class="app-full-height-page mt-6 d-flex align-center">
-    <v-row>
-      <v-col class="col-md-12">
-        <h2 class="app-sub-title-section font-weight-black">
-          Portafolio 💼
-        </h2>
+  <div class="app-full-height-page d-flex align-center justify-center" id="portafolio">
+    <v-container>
+      <v-row>
+        <v-col class="col-md-12">
+          <h2 class="app-sub-title-section font-weight-black">
+            Portafolio 💼
+          </h2>
 
-        <p class="app-text-secondary mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
-          dignissimos distinctio eligendi error illum in laboriosam minima nihil
-          perspiciatis possimus qui quisquam, sed sequi sit sunt velit voluptates. Aspernatur, temporibus?
-        </p>
-      </v-col>
+          <p class="app-text-secondary mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+            dignissimos distinctio eligendi error illum in laboriosam minima nihil
+            perspiciatis possimus qui quisquam, sed sequi sit sunt velit voluptates. Aspernatur, temporibus?
+          </p>
+        </v-col>
 
-      <v-col class="col-12 col-md-4">
-        <img
-          class="rounded"
-          src="https://pbs.twimg.com/media/E6sa_aiWQAI_FvX?format=jpg&name=medium"
-          style="max-width: 100%"
-          alt="proyect_image"
-        >
-      </v-col>
+        <v-col class="col-12 col-md-4">
+          <img
+            class="rounded"
+            src="https://pbs.twimg.com/media/E6sa_aiWQAI_FvX?format=jpg&name=medium"
+            style="max-width: 100%"
+            alt="proyect_image"
+          >
+        </v-col>
 
-      <v-col class="col-12 col-md-4">
-        <img
-          class="rounded"
-          src="https://pbs.twimg.com/media/E6sbEGaXIAAgHT_?format=jpg&name=medium"
-          style="max-width: 100%"
-          alt="proyect_image"
-        >
-      </v-col>
+        <v-col class="col-12 col-md-4">
+          <img
+            class="rounded"
+            src="https://pbs.twimg.com/media/E6sbEGaXIAAgHT_?format=jpg&name=medium"
+            style="max-width: 100%"
+            alt="proyect_image"
+          >
+        </v-col>
 
-      <v-col class="col-12 col-md-4">
-        <img
-          class="rounded"
-          src="https://pbs.twimg.com/media/E6SKl5pXEAkwSbb?format=jpg&name=4096x4096"
-          style="max-width: 100%"
-          alt="proyect_image"
-        >
-      </v-col>
+        <v-col class="col-12 col-md-4">
+          <img
+            class="rounded"
+            src="https://pbs.twimg.com/media/E6SKl5pXEAkwSbb?format=jpg&name=4096x4096"
+            style="max-width: 100%"
+            alt="proyect_image"
+          >
+        </v-col>
 
-      <v-col class="col-md-12 d-flex align-center justify-center">
-        <v-btn outlined color="primary" class="text-transformation-none" large>
-          Ver mas
-        </v-btn>
-      </v-col>
-    </v-row>
-  </v-container>
+        <v-col class="col-md-12 d-flex align-center justify-center">
+          <v-btn outlined color="primary" class="text-transformation-none" large>
+            Ver mas
+          </v-btn>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
 
-  <v-container class="app-full-height-page d-flex align-center justify-center">
+  <v-container class="app-full-height-page d-flex align-center justify-center" id="contacto">
     <v-row>
       <v-col class="col-12 col-md-6 d-flex justify-center flex-column">
         <h2 class="app-sub-title-section font-weight-black">
