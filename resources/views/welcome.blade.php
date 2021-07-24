@@ -44,7 +44,7 @@
           </h2>
 
           <p>
-            ¡Hola! mi nombre es  Christopher Gerardy Andrade Lazcano
+            ¡Hola! mi nombre es Christopher Gerardy Andrade Lazcano
             <br>
             Soy desarrollador web fullstack 🚀
           </p>
@@ -98,9 +98,11 @@
         @endforeach
 
         <v-col class="col-md-12 d-flex align-center justify-center">
-          <v-btn outlined color="primary" class="text-transformation-none" large>
-            Ver mas
-          </v-btn>
+          <a href="/portafolio" class="text-decoration-none">
+            <v-btn outlined color="primary" class="text-transformation-none">
+              Ver mas
+            </v-btn>
+          </a>
         </v-col>
       </v-row>
     </v-container>
