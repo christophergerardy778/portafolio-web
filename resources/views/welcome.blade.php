@@ -28,9 +28,7 @@
 
       <v-col class="col-md-6 d-flex justify-center justify-md-end align-center app-image-center">
         <v-avatar width="200px" height="200px" class="app-image-me">
-          <v-img
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQFKNou5AErvKA/profile-displayphoto-shrink_200_200/0/1616812083033?e=1631750400&v=beta&t=daRxzZbO05nvbLyZAX2X9O4lTCov7W23eSmXViLkAJw"
-          ></v-img>
+          <v-img src="{{ asset('/img/me.jpg') }}"></v-img>
         </v-avatar>
       </v-col>
 
@@ -72,7 +70,7 @@
     </v-container>
   </div>
 
-  <div class="app-full-height-page d-flex align-center justify-center" id="portafolio">
+  <div class="app-full-height-page d-flex align-center justify-center my-10 my-md-0" id="portafolio">
     <v-container>
       <v-row>
         <v-col class="col-md-12">
@@ -88,30 +86,27 @@
         </v-col>
 
         <v-col class="col-12 col-md-4">
-          <img
-            class="rounded"
+          <v-img
+            class="rounded app-image"
             src="https://pbs.twimg.com/media/E6sa_aiWQAI_FvX?format=jpg&name=medium"
-            style="max-width: 100%"
             alt="proyect_image"
-          >
+          ></v-img>
         </v-col>
 
         <v-col class="col-12 col-md-4">
-          <img
-            class="rounded"
+          <v-img
+            class="rounded app-image"
             src="https://pbs.twimg.com/media/E6sbEGaXIAAgHT_?format=jpg&name=medium"
-            style="max-width: 100%"
             alt="proyect_image"
-          >
+          ></v-img>
         </v-col>
 
         <v-col class="col-12 col-md-4">
-          <img
-            class="rounded"
+          <v-img
+            class="rounded app-image"
             src="https://pbs.twimg.com/media/E6SKl5pXEAkwSbb?format=jpg&name=4096x4096"
-            style="max-width: 100%"
             alt="proyect_image"
-          >
+          ></v-img>
         </v-col>
 
         <v-col class="col-md-12 d-flex align-center justify-center">
@@ -123,7 +118,7 @@
     </v-container>
   </div>
 
-  <v-container class="app-full-height-page d-flex align-center justify-center" id="contacto">
+  <v-container class="app-full-height-page d-flex align-center justify-center mb-10 mb-md-10" id="contacto">
     <v-row>
       <v-col class="col-12 col-md-6 d-flex justify-center flex-column">
         <h2 class="app-sub-title-section font-weight-black">
@@ -137,112 +132,27 @@
         </p>
 
         <div class="app-icon-social">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-git-alt"></i>
-          <i class="fab fa-instagram"></i>
+          <a href="https://www.facebook.com/christopher.gerardy.7399" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/christopherge77" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/christopher-gerardy" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/christophergerardy778" target="_blank">
+            <i class="fab fa-git-alt"></i>
+          </a>
+          <a href="https://www.instagram.com/christopher.web.developer" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
         </div>
       </v-col>
 
       <v-col class="col-md-6">
-        <v-form>
-          <v-text-field
-            outlined
-            label="Nombre"
-          ></v-text-field>
-
-          <v-text-field
-            outlined
-            label="Email"
-          ></v-text-field>
-
-          <v-textarea outlined label="Mensaje">
-          </v-textarea>
-
-          <v-btn large depressed block color="primary" class="text-transformation-none">
-            Enviar
-          </v-btn>
-        </v-form>
+        <contact-form></contact-form>
       </v-col>
     </v-row>
   </v-container>
-
-<!--  <v-container class="app-full-height-page d-flex align-center justify-center mt-8">
-    <v-row>
-      <v-col class="col-md-12 app-text-secondary">
-        <h2 class="app-sub-title-section font-weight-black text-black">
-          Habilidades tecnicas
-        </h2>
-
-        <p>
-          Tengo conocimientos de programación web con Angular, Vue, servidores con Node js,
-          MongoDB y MYSQL me dedico al desarrollo aplicaciones web funcionales y amigables con el
-          usuario con ayuda del diseño de interfaces con otras herramientas como Figma
-        </p>
-
-        <v-chip-group column>
-          <v-chip color="primary">
-            Angular
-          </v-chip>
-
-          <v-chip color="primary">
-            Vue js
-          </v-chip>
-
-          <v-chip color="primary">
-            Laravel
-          </v-chip>
-
-          <v-chip color="primary">
-            Angular
-          </v-chip>
-
-          <v-chip color="primary">
-            Vue js
-          </v-chip>
-
-          <v-chip color="primary">
-            Laravel
-          </v-chip>
-
-          <v-chip color="primary">
-            Angular
-          </v-chip>
-
-          <v-chip color="primary">
-            Vue js
-          </v-chip>
-
-          <v-chip color="primary">
-            Laravel
-          </v-chip>
-
-          <v-chip color="primary">
-            Angular
-          </v-chip>
-
-          <v-chip color="primary">
-            Vue js
-          </v-chip>
-
-          <v-chip color="primary">
-            Laravel
-          </v-chip>
-          <v-chip color="primary">
-            Angular
-          </v-chip>
-
-          <v-chip color="primary">
-            Vue js
-          </v-chip>
-
-          <v-chip color="primary">
-            Laravel
-          </v-chip>
-
-        </v-chip-group>
-      </v-col>
-    </v-row>
-  </v-container>-->
 @stop

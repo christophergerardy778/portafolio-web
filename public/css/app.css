@@ -4713,6 +4713,14 @@ readers do not read off random characters that represent icons */
   color: #424242;
 }
 
+.app-cursor-pointer {
+  cursor: pointer;
+}
+
+.app-image {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 425px) {
   .app-sub-title {
     font-size: 18px;

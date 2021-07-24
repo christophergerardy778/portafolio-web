@@ -104,6 +104,14 @@ $text-color-secondary: #7B7B7B;
   color: $text-color-black;
 }
 
+.app-cursor-pointer {
+  cursor: pointer;
+}
+
+.app-image {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 425px) {
   .app-sub-title {
     font-size: 18px;
