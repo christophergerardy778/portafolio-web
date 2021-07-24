@@ -20,5 +20,6 @@ Route::get('/', function () {
 });
 
 Route::get('/portafolio', function () {
-    return view('portfolio');
+    $projects = Project::orderBy('created_at', 'desc')->get();
+    return view('portfolio', compact('projects'));
 });

@@ -4717,8 +4717,46 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
 }
 
+.app-portfolio-space {
+  margin-top: 18px;
+}
+
 .app-image {
   max-width: 100%;
+}
+
+.app-bar-style {
+  box-shadow: 0 1px 1px rgba(144, 144, 144, 0.25) !important;
+}
+
+.app-footer-style {
+  box-shadow: 0 -1px 1px rgba(144, 144, 144, 0.25) !important;
+}
+
+.app-bar-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-logo-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.app-bar-subhead {
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.25em;
+}
+
+.app-font-size {
+  font-size: 14px;
+}
+
+.v-toolbar__content {
+  padding: 0 !important;
 }
 
 @media screen and (max-width: 425px) {
