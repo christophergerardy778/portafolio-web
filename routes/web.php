@@ -1,5 +1,6 @@
 <?php
 
+use App\Project;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $projects = Project::orderBy('created_at', 'desc')->limit(3)->get();
+    return view('welcome', compact("projects"));
 });
 
 Route::get('/portafolio', function () {
-  return view('portfolio');
+    return view('portfolio');
 });

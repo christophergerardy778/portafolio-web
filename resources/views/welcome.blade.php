@@ -85,29 +85,17 @@
           </p>
         </v-col>
 
-        <v-col class="col-12 col-md-4">
-          <v-img
-            class="rounded app-image"
-            src="https://pbs.twimg.com/media/E6sa_aiWQAI_FvX?format=jpg&name=medium"
-            alt="proyect_image"
-          ></v-img>
-        </v-col>
-
-        <v-col class="col-12 col-md-4">
-          <v-img
-            class="rounded app-image"
-            src="https://pbs.twimg.com/media/E6sbEGaXIAAgHT_?format=jpg&name=medium"
-            alt="proyect_image"
-          ></v-img>
-        </v-col>
-
-        <v-col class="col-12 col-md-4">
-          <v-img
-            class="rounded app-image"
-            src="https://pbs.twimg.com/media/E6SKl5pXEAkwSbb?format=jpg&name=4096x4096"
-            alt="proyect_image"
-          ></v-img>
-        </v-col>
+        @foreach($projects as $project)
+          <v-col class="col-12 col-md-4">
+            <a href="{{ $project->project_url }}" target="_blank">
+              <v-img
+                class="rounded app-image"
+                src="{{ asset($project->file_path) }}"
+                alt="{{ asset($project->file_path) }}"
+              ></v-img>
+            </a>
+          </v-col>
+        @endforeach
 
         <v-col class="col-md-12 d-flex align-center justify-center">
           <v-btn outlined color="primary" class="text-transformation-none" large>
