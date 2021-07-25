@@ -89,7 +89,7 @@ export default {
         try {
           this.isLoading = true;
 
-          await fetch('http://127.0.0.1:8000/contact', {
+          await fetch('https://christophergerardy.com/contact', {
             method: 'POST',
             body: JSON.stringify(this.email),
             headers: {

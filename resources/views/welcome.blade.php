@@ -17,8 +17,8 @@
         </h2>
 
         <p class="app-description mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu a
-          proin vitae vitae, consectetur lacus in ultricies nulla.
+          Fullstack developer con pasión por la tecnología y resolver
+          problemas con ayuda de la web y el diseño
         </p>
 
         <v-btn depressed large class="text-transformation-none mt-2" color="primary">
@@ -57,13 +57,16 @@
           </p>
 
           <p>
-            Tengo conocimientos de programación web con Angular,
-            Vue, servidores con Node js, MongoDB y MYSQL me dedico al desarrollo aplicaciones web
+            Soy mexicano y me gusta la tecnología en general
+            todo lo que tiene que ver con programación web y móvil
           </p>
 
           <p>
-            me dedico al desarrollo aplicaciones web funcionales y amigables
-            con el usuario con ayuda del diseño de interfaces con otras herramientas como Figma 💻
+            Estoy en la universidad estudio Ingeniería en
+            sistemas computacionales me encanta aprender cosas nuevas sobre
+            tecnología para luego enseñar sobre ella a mis
+            amigos y compañeros de ahí viene mi frase celebre
+            <i class="font-weight-black">"Aprender, Crear, Enseñar"</i>
           </p>
         </v-col>
       </v-row>
@@ -79,9 +82,10 @@
           </h2>
 
           <p class="app-text-secondary mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
-            dignissimos distinctio eligendi error illum in laboriosam minima nihil
-            perspiciatis possimus qui quisquam, sed sequi sit sunt velit voluptates. Aspernatur, temporibus?
+            Estos son algunos de los proyectos que he hecho yo solo como también algunos en los
+            que he participado o he sido parte del equipo de desarrollo puede que sean muchos o pocos
+            al momento trato de subirlos todos, pero de no poder hacerlo puedes verlos en mi
+            <a href="https://github.com/christophergerardy778" class="text-decoration-none">GitHub</a>
           </p>
         </v-col>
 
@@ -116,9 +120,9 @@
         </h2>
 
         <p class="app-text-secondary">
-          Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Accusamus at autem consequatur cumque,
-          dolor doloribus eos error et
+          Me gustaría participar en tus proyectos y ayudarte a ti y
+          al mundo con esa gran idea o producto que tienes en mente
+          (recuerda seguirme en Instagram es gratis 😏)
         </p>
 
         <div class="app-icon-social">

@@ -9,9 +9,10 @@
         </h2>
 
         <p class="app-text-secondary mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
-          dignissimos distinctio eligendi error illum in laboriosam minima nihil
-          perspiciatis possimus qui quisquam, sed sequi sit sunt velit voluptates. Aspernatur, temporibus?
+          Estos son algunos de los proyectos que he hecho yo solo como también algunos en los
+          que he participado o he sido parte del equipo de desarrollo puede que sean muchos o pocos
+          al momento trato de subirlos todos, pero de no poder hacerlo puedes verlos en mi
+          <a href="https://github.com/christophergerardy778" class="text-decoration-none">GitHub</a>
         </p>
       </v-col>
 
