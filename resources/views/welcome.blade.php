@@ -141,7 +141,7 @@
       </v-col>
 
       <v-col class="col-md-6">
-        <contact-form></contact-form>
+        <contact-form token="{{ csrf_token() }}"></contact-form>
       </v-col>
     </v-row>
   </v-container>
